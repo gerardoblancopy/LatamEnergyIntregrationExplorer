@@ -63,7 +63,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({ config, setConfig, a
     }
 
     const options: { [key in keyof ScenarioConfig]?: (string | number)[] } = {};
-    const dependencyOrder: (keyof ScenarioConfig)[] = ['year', 'transmission', 'sovereignty', 'demand', 'hydroAndean', 'hydroConoSur'];
+    const dependencyOrder: (keyof ScenarioConfig)[] = ['year', 'transmission', 'sovereignty', 'hydroAndean', 'hydroConoSur'];
 
     dependencyOrder.forEach(field => {
       let filteredScenarios = availableScenarios;
@@ -101,12 +101,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({ config, setConfig, a
             <option value="WithoutSovereignty" disabled={!validOptions.sovereignty?.includes('WithoutSovereignty')}>Without Sovereignty</option>
         </Select>
 
-        <Select label="Demand" value={config.demand} onChange={e => handleChange('demand', e.target.value as any)}>
-            <option value="BaseCase" disabled={!validOptions.demand?.includes('BaseCase')}>Base Case</option>
-            <option value="NoCoal" disabled={!validOptions.demand?.includes('NoCoal')}>No Coal</option>
-            <option value="ElecPlus" disabled={!validOptions.demand?.includes('ElecPlus')}>Electrification+</option>
-            <option value="ElecRenLimit" disabled={!validOptions.demand?.includes('ElecRenLimit')}>Electrification+ (Renewable Limit)</option>
-        </Select>
+        
 
          <Select label="Andean Hydro" value={config.hydroAndean} onChange={e => handleChange('hydroAndean', e.target.value as any)}>
             <option value="High" disabled={!validOptions.hydroAndean?.includes('High')}>High</option>
