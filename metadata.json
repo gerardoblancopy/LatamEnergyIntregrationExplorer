@@ -1,0 +1,6 @@
+{
+  "name": "LATAM Energy Integration Explorer",
+  "description": "An interactive web application to visualize and analyze scenarios for energy integration and decarbonization in Latin America, based on the findings of the 'Integración energética y descarbonización en América Latina' white paper.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

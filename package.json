@@ -1,0 +1,25 @@
+
+{
+  "name": "latam-energy-integration-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "2.12.7",
+    "leaflet": "1.9.4",
+    "react-leaflet": "4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/leaflet": "^1.9.0",
+    "@types/node": "^20.11.20",
+    "vite": "^5.2.0",
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}
