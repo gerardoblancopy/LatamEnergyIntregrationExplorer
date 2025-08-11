@@ -32,6 +32,12 @@ export const AboutModal: React.FC<AboutModalProps> = ({ onClose }) => {
           <p>
             All data is pre-calculated from a sophisticated optimization model detailed in the source paper. This web application serves as a visualization layer and does not run live simulations.
           </p>
+          <p>
+            This application is designed to provide insights into the complex dynamics of energy integration and decarbonization in Latin America. It serves as a valuable resource for policymakers, researchers, and stakeholders interested in the region's energy future.
+          </p>
+          <p>
+            You can access and explore the application at: <a href="https://explorer.energia.la" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">https://explorer.energia.la</a>
+          </p>
         </div>
 
         <div className="mt-6 text-right flex-shrink-0">
