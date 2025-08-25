@@ -1,0 +1,428 @@
+{
+  "scenarioParameters": {
+    "year": 2045,
+    "transmission": "Integrated",
+    "sovereignty": "WithSovereignty",
+    "demand": "ElecPlus",
+    "hydroAndean": "Medium",
+    "hydroConoSur": "Medium"
+  },
+  "regional": {
+    "generationMix": {
+      "Solar": 1177.7880162641964,
+      "Wind": 1595.7338349967522,
+      "Hydro_Embalse": 901.167945064978,
+      "Hydro_Pasada": 103.37803703274137,
+      "Coal": 0.0,
+      "Gas": 105.37247501935035,
+      "Diesel": 0.1270248103893642,
+      "Nuclear": 45.579106034416114
+    }
+  },
+  "countries": {
+    "AR": {
+      "generationMix": {
+        "Solar": 275.0208547882878,
+        "Wind": 17.86646253020601,
+        "Hydro_Embalse": 23.02023070176963,
+        "Hydro_Pasada": 3.399600686780829,
+        "Coal": 0,
+        "Gas": 9.161293218289284,
+        "Diesel": 0.0,
+        "Nuclear": 14.104922542082
+      }
+    },
+    "BO": {
+      "generationMix": {
+        "Solar": 0.4706809308694804,
+        "Wind": 114.3819291038082,
+        "Hydro_Embalse": 2.572166962454097,
+        "Hydro_Pasada": 0.6166794774976087,
+        "Coal": 0,
+        "Gas": 0.908975162765542,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "BR": {
+      "generationMix": {
+        "Solar": 191.0550403041665,
+        "Wind": 717.8949065606203,
+        "Hydro_Embalse": 461.8056919959119,
+        "Hydro_Pasada": 38.46773072637888,
+        "Coal": 0,
+        "Gas": 7.159942340541682,
+        "Diesel": 0.0,
+        "Nuclear": 17.42245
+      }
+    },
+    "BZ": {
+      "generationMix": {
+        "Solar": 0.02233463466037498,
+        "Wind": 1.212958802060392,
+        "Hydro_Embalse": 0.2285714285714286,
+        "Hydro_Pasada": 0.0342857142857118,
+        "Coal": 0,
+        "Gas": 4.725916364945425,
+        "Diesel": 0.02389602410277367,
+        "Nuclear": 0.0
+      }
+    },
+    "CL": {
+      "generationMix": {
+        "Solar": 123.9642871652618,
+        "Wind": 92.70475453423172,
+        "Hydro_Embalse": 13.16949986668985,
+        "Hydro_Pasada": 6.241053082388112,
+        "Coal": 0,
+        "Gas": 0.3893459337649262,
+        "Diesel": 0.03131772193743084,
+        "Nuclear": 0.0
+      }
+    },
+    "CO": {
+      "generationMix": {
+        "Solar": 95.24285368930015,
+        "Wind": 39.22646837937242,
+        "Hydro_Embalse": 48.0805581200875,
+        "Hydro_Pasada": 17.55954083571853,
+        "Coal": 0,
+        "Gas": 0.0561,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "CR": {
+      "generationMix": {
+        "Solar": 0.1355613861678464,
+        "Wind": 9.098766769786153,
+        "Hydro_Embalse": 12.23266352580259,
+        "Hydro_Pasada": 2.112980985617118,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "EC": {
+      "generationMix": {
+        "Solar": 79.17401382400756,
+        "Wind": 1.673662632531965,
+        "Hydro_Embalse": 20.03340482061953,
+        "Hydro_Pasada": 7.609264109439034,
+        "Coal": 0,
+        "Gas": 0.1720702207294055,
+        "Diesel": 0.04792415259257006,
+        "Nuclear": 0.0
+      }
+    },
+    "ES": {
+      "generationMix": {
+        "Solar": 8.056532711195825,
+        "Wind": 0.77723814124336,
+        "Hydro_Embalse": 3.593383532359185,
+        "Hydro_Pasada": 0.824248617024726,
+        "Coal": 0,
+        "Gas": 0.0238396341093285,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "FG": {
+      "generationMix": {
+        "Solar": 0.1302561,
+        "Wind": 7.750950923060723,
+        "Hydro_Embalse": 0.9308449102657919,
+        "Hydro_Pasada": 0.02998019999999783,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "GU": {
+      "generationMix": {
+        "Solar": 19.10544647936251,
+        "Wind": 2.112161703333579,
+        "Hydro_Embalse": 7.54214962044282,
+        "Hydro_Pasada": 2.088983979298081,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "GY": {
+      "generationMix": {
+        "Solar": 0.02247685,
+        "Wind": 0.08108243185639058,
+        "Hydro_Embalse": 5e-06,
+        "Hydro_Pasada": 9.99999999999928e-07,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "HO": {
+      "generationMix": {
+        "Solar": 27.5318692557421,
+        "Wind": 2.662320428102719,
+        "Hydro_Embalse": 5.151259824795607,
+        "Hydro_Pasada": 1.668768749516849,
+        "Coal": 0,
+        "Gas": 0.002794699906469969,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "MX": {
+      "generationMix": {
+        "Solar": 301.8289390756034,
+        "Wind": 188.9680066450185,
+        "Hydro_Embalse": 81.52956595339576,
+        "Hydro_Pasada": 7.699526757544734,
+        "Coal": 0,
+        "Gas": 75.22373741804321,
+        "Diesel": 0.003525471783271885,
+        "Nuclear": 14.05173349233411
+      }
+    },
+    "NI": {
+      "generationMix": {
+        "Solar": 10.00296012442525,
+        "Wind": 0.5986121235368556,
+        "Hydro_Embalse": 0.8324858250548842,
+        "Hydro_Pasada": 0.2715985604829151,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "PA": {
+      "generationMix": {
+        "Solar": 0.9524073499999998,
+        "Wind": 4.829846037447079,
+        "Hydro_Embalse": 11.28288,
+        "Hydro_Pasada": 2.384516129032085,
+        "Coal": 0,
+        "Gas": 0.0076,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "PE": {
+      "generationMix": {
+        "Solar": 16.45002802833332,
+        "Wind": 18.55162519300553,
+        "Hydro_Embalse": 25.43783770073448,
+        "Hydro_Pasada": 9.64197876261147,
+        "Coal": 0,
+        "Gas": 7.459505205181568,
+        "Diesel": 0.01018968907922642,
+        "Nuclear": 0.0
+      }
+    },
+    "PY": {
+      "generationMix": {
+        "Solar": 28.04835710910259,
+        "Wind": 0.0,
+        "Hydro_Embalse": 50.54251414073656,
+        "Hydro_Pasada": 0.3471420763531184,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.007548936515050489,
+        "Nuclear": 0.0
+      }
+    },
+    "SU": {
+      "generationMix": {
+        "Solar": 0.02029985770986571,
+        "Wind": 5.573625680272773,
+        "Hydro_Embalse": 1.41171993852617,
+        "Hydro_Pasada": 0.01830811684383397,
+        "Coal": 0,
+        "Gas": 0.0,
+        "Diesel": 0.002622814379040818,
+        "Nuclear": 0.0
+      }
+    },
+    "UY": {
+      "generationMix": {
+        "Solar": 0.5528165999999999,
+        "Wind": 336.9271757764687,
+        "Hydro_Embalse": 6.841236824937002,
+        "Hydro_Pasada": 0.1815846397350241,
+        "Coal": 0,
+        "Gas": 0.0111,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    },
+    "VE": {
+      "generationMix": {
+        "Solar": 0.0,
+        "Wind": 32.84128060078908,
+        "Hydro_Embalse": 124.9292743718231,
+        "Hydro_Pasada": 2.180263826192695,
+        "Coal": 0,
+        "Gas": 0.07025482107349403,
+        "Diesel": 0.0,
+        "Nuclear": 0.0
+      }
+    }
+  },
+  "staticLines": [
+    {
+      "id": "PA-CR",
+      "from": "Panama",
+      "to": "Costa Rica",
+      "existingCapacity": 300.0,
+      "coordinates": {
+        "c1": "(9.51102,-84.57103)",
+        "c2": "(8.07574,-82.2729)"
+      }
+    },
+    {
+      "id": "BR-UY",
+      "from": "Brazil",
+      "to": "Uruguay",
+      "existingCapacity": 570.0,
+      "coordinates": {
+        "c1": "(-24.26318,-49.54945)",
+        "c2": "(-33.02693,-55.40152)"
+      }
+    },
+    {
+      "id": "BR-AR",
+      "from": "Brazil",
+      "to": "Argentina",
+      "existingCapacity": 2250.0,
+      "coordinates": {
+        "c1": "(-24.26318,-49.54945)",
+        "c2": "(-31.3157,-66.22498)"
+      }
+    },
+    {
+      "id": "PY-AR",
+      "from": "Paraguay",
+      "to": "Argentina",
+      "existingCapacity": 3200.0,
+      "coordinates": {
+        "c1": "(-23.09956,-57.84811)",
+        "c2": "(-31.3157,-66.22498)"
+      }
+    },
+    {
+      "id": "UY-AR",
+      "from": "Uruguay",
+      "to": "Argentina",
+      "existingCapacity": 3990.0,
+      "coordinates": {
+        "c1": "(-33.02693,-55.40152)",
+        "c2": "(-31.3157,-66.22498)"
+      }
+    },
+    {
+      "id": "AR-CL",
+      "from": "Argentina",
+      "to": "Chile",
+      "existingCapacity": 200.0,
+      "coordinates": {
+        "c1": "(-31.3157,-66.22498)",
+        "c2": "(-31.40335,-70.92289)"
+      }
+    },
+    {
+      "id": "AR-BO",
+      "from": "Argentina",
+      "to": "Bolivia",
+      "existingCapacity": 120.0,
+      "coordinates": {
+        "c1": "(-31.3157,-66.22498)",
+        "c2": "(-17.16367,-64.94052)"
+      }
+    },
+    {
+      "id": "PE-EC",
+      "from": "Peru",
+      "to": "Ecuador",
+      "existingCapacity": 100.0,
+      "coordinates": {
+        "c1": "(-9.07534,-75.81132)",
+        "c2": "(-1.45986,-80.09796)"
+      }
+    },
+    {
+      "id": "EC-CO",
+      "from": "Ecuador",
+      "to": "Colombia",
+      "existingCapacity": 613.0,
+      "coordinates": {
+        "c1": "(-1.45986,-80.09796)",
+        "c2": "(1.47269,-72.84049)"
+      }
+    },
+    {
+      "id": "CO-VE",
+      "from": "Colombia",
+      "to": "Venezuela",
+      "existingCapacity": 13.5,
+      "coordinates": {
+        "c1": "(1.47269,-72.84049)",
+        "c2": "(7.02883,-64.09363)"
+      }
+    },
+    {
+      "id": "MX-GU",
+      "from": "Mexico",
+      "to": "Guatemala",
+      "existingCapacity": 200.0,
+      "coordinates": {
+        "c1": "(24.0928,-105.1114)",
+        "c2": "(14.75313,-91.9143)"
+      }
+    },
+    {
+      "id": "HO-NI",
+      "from": "Honduras",
+      "to": "Nicaragua",
+      "existingCapacity": 300.0,
+      "coordinates": {
+        "c1": "(13.56025,-87.72037)",
+        "c2": "(12.508,-85.5453)"
+      }
+    },
+    {
+      "id": "HO-ES",
+      "from": "Honduras",
+      "to": "El Salvador",
+      "existingCapacity": 300.0,
+      "coordinates": {
+        "c1": "(12.99297,-89.2768)",
+        "c2": "(13.56025,-87.72037)"
+      }
+    },
+    {
+      "id": "NI-CR",
+      "from": "Nicaragua",
+      "to": "Costa Rica",
+      "existingCapacity": 300.0,
+      "coordinates": {
+        "c1": "(12.508,-85.5453)",
+        "c2": "(9.51102,-84.57103)"
+      }
+    },
+    {
+      "id": "GU-ES",
+      "from": "Guatemala",
+      "to": "El Salvador",
+      "existingCapacity": 300.0,
+      "coordinates": {
+        "c1": "(14.75313,-91.9143)",
+        "c2": "(12.99297,-89.2768)"
+      }
+    }
+  ]
+}

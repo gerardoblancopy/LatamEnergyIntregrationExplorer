@@ -1,0 +1,221 @@
+{
+  "regional": {
+    "totalCost": 84423.41798208538,
+    "totalInvestment": 81019.91477639663,
+    "operationCost": 3403.5032056887403,
+    "totalEmissions": 96.92397658140716,
+    "geopoliticalCost": 13512.840800059872
+  },
+  "countries": {
+    "Panama": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 690.7772180572258,
+      "operationCost": 3.4601187324782012,
+      "energyBalance": {
+        "imports": 0.0,
+        "exports": -4036.7186145340747
+      },
+      "totalEmissions": 0.0
+    },
+    "Brazil": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 4616.939762527642,
+      "operationCost": 702.0786771989498,
+      "energyBalance": {
+        "imports": 0.0,
+        "exports": 9448.726974139388
+      },
+      "totalEmissions": 0.0
+    },
+    "Paraguay": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 1209.452684690567,
+      "operationCost": 0.05729585562554657,
+      "energyBalance": {
+        "imports": 746.1099065132994,
+        "exports": -2785.662793795266
+      },
+      "totalEmissions": 0.0
+    },
+    "Uruguay": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -4052.167233236205,
+      "operationCost": 3.64796023135888,
+      "energyBalance": {
+        "imports": 14433.858236749333,
+        "exports": 45613.546679960455
+      },
+      "totalEmissions": 0.0
+    },
+    "Argentina": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 4618.074935146486,
+      "operationCost": 806.760118783623,
+      "energyBalance": {
+        "imports": 43562.783355393374,
+        "exports": 4492.682344380386
+      },
+      "totalEmissions": 0.0
+    },
+    "Peru": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 1743.600374814412,
+      "operationCost": 402.3046674067519,
+      "energyBalance": {
+        "imports": 0.0,
+        "exports": -25850.960083085796
+      },
+      "totalEmissions": 0.0
+    },
+    "Chile": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 669.5449586263678,
+      "operationCost": 37.33722853365003,
+      "energyBalance": {
+        "imports": 2813.303774258093,
+        "exports": -438.59844759159415
+      },
+      "totalEmissions": 0.0
+    },
+    "Ecuador": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 2914.177676877358,
+      "operationCost": 19.675021246186272,
+      "energyBalance": {
+        "imports": 12788.883014381758,
+        "exports": -1475.3512526492616
+      },
+      "totalEmissions": 0.0
+    },
+    "Colombia": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 2628.181372997622,
+      "operationCost": 23.635506388631416,
+      "energyBalance": {
+        "imports": 21506.16305187686,
+        "exports": -37804.12250504776
+      },
+      "totalEmissions": 0.0
+    },
+    "Bolivia": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -4153.867318932126,
+      "operationCost": 68.07924932048077,
+      "energyBalance": {
+        "imports": 39850.33223298336,
+        "exports": 0.0
+      },
+      "totalEmissions": 0.0
+    },
+    "Venezuela": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -439.8759299974108,
+      "operationCost": 42.805445681487384,
+      "energyBalance": {
+        "imports": 11908.512250865126,
+        "exports": 0.0
+      },
+      "totalEmissions": 0.0
+    },
+    "Mexico": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -3414.342623648694,
+      "operationCost": 1200.0645804986464,
+      "energyBalance": {
+        "imports": 0.0,
+        "exports": -4747.887512884731
+      },
+      "totalEmissions": 0.0
+    },
+    "Belize": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -1.014297258082081,
+      "operationCost": 87.17037825773409,
+      "energyBalance": {
+        "imports": 0.0,
+        "exports": 0.0
+      },
+      "totalEmissions": 0.0
+    },
+    "Honduras": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 758.8319081049493,
+      "operationCost": 0.87,
+      "energyBalance": {
+        "imports": 0.0,
+        "exports": -3842.2098547774235
+      },
+      "totalEmissions": 0.0
+    },
+    "Nicaragua": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 240.2198411371797,
+      "operationCost": 0.18,
+      "energyBalance": {
+        "imports": 13658.836270125663,
+        "exports": -15188.444235836258
+      },
+      "totalEmissions": 0.0
+    },
+    "Guatemala": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 922.1566691112041,
+      "operationCost": 0.126,
+      "energyBalance": {
+        "imports": 4747.887512884731,
+        "exports": -9088.840007621819
+      },
+      "totalEmissions": 0.0
+    },
+    "El Salvador": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 15.7693742408571,
+      "operationCost": 4.798596744856867,
+      "energyBalance": {
+        "imports": 727.7864077264195,
+        "exports": 0.0
+      },
+      "totalEmissions": 0.0
+    },
+    "Costa Rica": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 121.1713702878665,
+      "operationCost": 0.152,
+      "energyBalance": {
+        "imports": 805.6489488572672,
+        "exports": 0.0
+      },
+      "totalEmissions": 0.0
+    },
+    "French Guiana": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -141.4654517287539,
+      "operationCost": 0.04648443423859758,
+      "energyBalance": {
+        "imports": 1136.4570621299008,
+        "exports": 91.8336373311591
+      },
+      "totalEmissions": 0.0
+    },
+    "Suriname": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": -75.66645243772908,
+      "operationCost": 0.1767845137834085,
+      "energyBalance": {
+        "imports": 91.8336373311591,
+        "exports": 275.14776634722654
+      },
+      "totalEmissions": 0.0
+    },
+    "Guyana": {
+      "lossToTrust": 0.0,
+      "lossToNotTrust": 2.35741662771521,
+      "operationCost": 0.07709186025768852,
+      "energyBalance": {
+        "imports": 368.8396674882366,
+        "exports": 0.0
+      },
+      "totalEmissions": 0.0
+    }
+  }
+}

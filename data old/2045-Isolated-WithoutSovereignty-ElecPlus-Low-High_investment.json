@@ -1,0 +1,294 @@
+{
+  "generation": {
+    "regional": {
+      "BESS": 124696.6011903748,
+      "Coal": 0.0,
+      "Diesel": 1288.11017056724,
+      "Gas": 30299.61476440869,
+      "Solar": 433492.0787173008,
+      "Wind": 249007.18479089907
+    },
+    "countries": {
+      "Argentina": {
+        "BESS": 16127.61164309651,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 76992.33299444051,
+        "Wind": 1282.0
+      },
+      "Belize": {
+        "BESS": 0.0,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 748.5197705718888,
+        "Solar": 0.0,
+        "Wind": 411.0
+      },
+      "Bolivia": {
+        "BESS": 3158.019495090766,
+        "Coal": 0.0,
+        "Diesel": 261.164829164753,
+        "Gas": 0.0,
+        "Solar": 6328.34594299747,
+        "Wind": 5259.617626713452
+      },
+      "Brazil": {
+        "BESS": 6164.156621087221,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 5296.83827079454,
+        "Solar": 22507.85805238183,
+        "Wind": 140943.898707709
+      },
+      "Chile": {
+        "BESS": 12992.10083247098,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 34164.71405959018,
+        "Wind": 21459.0
+      },
+      "Colombia": {
+        "BESS": 17105.64238984027,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 66706.78729143906,
+        "Wind": 11968.0
+      },
+      "Costa Rica": {
+        "BESS": 103.7546440708516,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 1287.185910662224,
+        "Solar": 0.0,
+        "Wind": 2300.0
+      },
+      "Ecuador": {
+        "BESS": 10262.74239514775,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 4539.498791362847,
+        "Solar": 38303.34918774352,
+        "Wind": 410.0
+      },
+      "El Salvador": {
+        "BESS": 1405.782789617287,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 5096.472942242569,
+        "Wind": 200.0
+      },
+      "French Guiana": {
+        "BESS": 33.15338239509173,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 172.2358635904018,
+        "Solar": 55.0,
+        "Wind": 398.5016282286613
+      },
+      "Guatemala": {
+        "BESS": 3291.636048240376,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 1593.573434025968,
+        "Solar": 11141.47527388502,
+        "Wind": 600.0
+      },
+      "Guyana": {
+        "BESS": 0.0,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 262.6540270243151,
+        "Solar": 0.0,
+        "Wind": 25.0
+      },
+      "Honduras": {
+        "BESS": 3986.799432953848,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 2120.329246823463,
+        "Solar": 14508.10871604133,
+        "Wind": 700.0
+      },
+      "Mexico": {
+        "BESS": 39925.07389514982,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 135408.9423035019,
+        "Wind": 47200.0
+      },
+      "Nicaragua": {
+        "BESS": 1226.918310990137,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 798.3813747266222,
+        "Solar": 5001.901979747563,
+        "Wind": 0.0
+      },
+      "Panama": {
+        "BESS": 0.0,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 2996.082361453126,
+        "Solar": 1316.0,
+        "Wind": 1152.0
+      },
+      "Paraguay": {
+        "BESS": 5056.080757191436,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 9589.789973289806,
+        "Wind": 0.0
+      },
+      "Peru": {
+        "BESS": 2625.392163180364,
+        "Coal": 0.0,
+        "Diesel": 1026.945341402487,
+        "Gas": 10000.0,
+        "Solar": 6371.0,
+        "Wind": 3658.0
+      },
+      "Suriname": {
+        "BESS": 83.42653138948384,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 484.3157133732905,
+        "Solar": 0.0,
+        "Wind": 1126.072656629317
+      },
+      "Uruguay": {
+        "BESS": 743.3069303029791,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 0.0,
+        "Wind": 9914.094171618633
+      },
+      "Venezuela": {
+        "BESS": 405.0029281596268,
+        "Coal": 0.0,
+        "Diesel": 0.0,
+        "Gas": 0.0,
+        "Solar": 0.0,
+        "Wind": 0.0
+      }
+    }
+  },
+  "transmission": {
+    "lines": [
+      {
+        "id": "PA-CO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "PA-CR",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-PY",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-UY",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-AR",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-BO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-VE",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-FG",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "BR-GY",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "PY-AR",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "PY-BO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "UY-AR",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "AR-CL",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "AR-BO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "PE-CL",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "PE-EC",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "PE-BO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "CL-BO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "EC-CO",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "CO-VE",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "MX-GU",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "HO-NI",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "HO-ES",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "NI-CR",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "GU-ES",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "FG-SU",
+        "newCapacityMW": 0
+      },
+      {
+        "id": "SU-GY",
+        "newCapacityMW": 0
+      }
+    ]
+  }
+}

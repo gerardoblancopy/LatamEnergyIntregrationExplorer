@@ -1,0 +1,324 @@
+{
+  "scenarios": [
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2035,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Isolated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "High",
+      "hydroConoSur": "Low"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Medium",
+      "hydroConoSur": "Medium"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "High"
+    },
+    {
+      "year": 2045,
+      "transmission": "Integrated",
+      "sovereignty": "WithoutSovereignty",
+      "demand": "ElecPlus",
+      "hydroAndean": "Low",
+      "hydroConoSur": "Low"
+    }
+  ]
+}
