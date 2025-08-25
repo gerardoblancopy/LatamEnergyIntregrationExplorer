@@ -102,7 +102,7 @@ export const RegionalSummary: React.FC<RegionalSummaryProps> = ({ regionalData, 
       <h2 className="text-base font-semibold mb-2 text-brand-text-main">Regional Summary</h2>
       <div className="grid grid-cols-2 gap-1 mb-2">
         <KpiCard title="Total Cost" value={`$${formatBillions(kpis.totalCost)}B`} />
-        <KpiCard title="Investment" value={`$${formatBillions(kpis.totalInvestment)}B`} />
+        <KpiCard title="Investment" value={`${kpis.totalInvestment.toLocaleString()} MW`} />
         <KpiCard title="Emissions" value={`${kpis.totalEmissions.toFixed(1)} MtCO₂`} />
         <KpiCard title="Geopolitical Cost" value={`$${formatBillions(kpis.geopoliticalCost)}B`} />
       </div>

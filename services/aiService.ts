@@ -36,7 +36,7 @@ export function createInvestmentChartSvg(investmentData: CountryInvestmentData):
                 <text x="${labelWidth - 10}" y="${barHeight / 2}" dy="0.35em" fill="#d1d5db" text-anchor="end" font-size="14">${d.name}</text>
                 <rect x="${labelWidth}" y="0" width="${barWidth}" height="${barHeight}" fill="${color}" rx="3"></rect>
                 <text x="${labelWidth + barWidth + 10}" y="${barHeight / 2}" dy="0.35em" fill="#FFF2F2" font-size="14" font-weight="500">
-                    $${d.value.toLocaleString(undefined, {maximumFractionDigits:0})}M (${(d.value / totalInvestment * 100).toFixed(1)}%)
+                    ${d.value.toLocaleString(undefined, {maximumFractionDigits:0})} MW (${(d.value / totalInvestment * 100).toFixed(1)}%)
                 </text>
             </g>
         `;
@@ -67,9 +67,9 @@ export function createInvestmentTableHtml(countryName: string, countryInvestment
                         <span style="display: inline-block; width: 12px; height: 12px; border-radius: 2px; background-color: ${INVESTMENT_COLORS[key] || '#ccc'};"></span>
                         ${key}
                     </td>
-                    <td>$${countryValue.toLocaleString(undefined, {maximumFractionDigits:0})}M</td>
+                    <td>${countryValue.toLocaleString(undefined, {maximumFractionDigits:0})}MW</td>
                     <td>${countryPct}%</td>
-                    <td>$${regionalValue.toLocaleString(undefined, {maximumFractionDigits:0})}M</td>
+                    <td>${regionalValue.toLocaleString(undefined, {maximumFractionDigits:0})}MW</td>
                     <td>${regionalPct}%</td>
                 </tr>
             `;
@@ -81,9 +81,9 @@ export function createInvestmentTableHtml(countryName: string, countryInvestment
                 <thead>
                     <tr>
                         <th>Technology</th>
-                        <th>${countryName} Inv. (M USD)</th>
+                        <th>${countryName} Inv. (MW)</th>
                         <th>${countryName} Share (%)</th>
-                        <th>Regional Inv. (M USD)</th>
+                        <th>Regional Inv. (MW)</th>
                         <th>Regional Share (%)</th>
                     </tr>
                 </thead>
@@ -100,7 +100,7 @@ export const generateExecutiveSummary = (data: ReportData): string => {
     const totalInvestment = Object.values(countryInvestment).reduce((a, b) => a + b, 0);
     const investments = Object.entries(countryInvestment).filter(([, value]) => value > 0).sort((a, b) => b[1] - a[1]);
     
-    let summary = `<p>In the <strong>${config.year} ${config.transmission}</strong> scenario, ${country.name}'s energy strategy is characterized by a significant investment of <strong>$${totalInvestment.toLocaleString(undefined, {maximumFractionDigits:0})}M USD</strong>. `;
+    let summary = `<p>In the <strong>${config.year} ${config.transmission}</strong> scenario, ${country.name}'s energy strategy is characterized by a significant investment of <strong>${totalInvestment.toLocaleString(undefined, {maximumFractionDigits:0})} MW</strong>. `;
 
     if (investments.length > 0) {
         const topInvestment = investments[0][0];
@@ -110,7 +110,7 @@ export const generateExecutiveSummary = (data: ReportData): string => {
         summary += `This scenario does not involve new generation or storage investments, suggesting a reliance on existing capacity and potentially energy imports.</p>`;
     }
 
-    summary += `<p>This approach is set against a regional backdrop of a total investment of <strong>$${(regionalKpis.totalInvestment / 1000).toFixed(1)}B USD</strong>. The country's decisions align with the scenario's parameters, which factor in a '${config.demand}' demand growth and a policy of '${config.sovereignty === 'WithSovereignty' ? 'energy sovereignty' : 'regional integration'}'.</p>`;
+    summary += `<p>This approach is set against a regional backdrop of a total investment of <strong>${(regionalKpis.totalInvestment / 1000).toFixed(1)} GW</strong>. The country's decisions align with the scenario's parameters, which factor in a '${config.demand}' demand growth and a policy of '${config.sovereignty === 'WithSovereignty' ? 'energy sovereignty' : 'regional integration'}'.</p>`;
     
     return summary;
 };
@@ -126,12 +126,12 @@ export const generateInvestmentAnalysis = (data: ReportData): string => {
     const topInvestment = investments[0];
     const otherInvestments = investments.slice(1);
 
-    let analysis = `<p>The investment portfolio is led by a major allocation of <strong>$${topInvestment[1].toLocaleString(undefined, {maximumFractionDigits:0})}M USD</strong> towards <strong>${topInvestment[0]}</strong>. This indicates that ${topInvestment[0]} is considered the cornerstone of the country's future energy system under these specific scenario conditions.</p>`;
+    let analysis = `<p>The investment portfolio is led by a major allocation of <strong>${topInvestment[1].toLocaleString(undefined, {maximumFractionDigits:0})} MW</strong> towards <strong>${topInvestment[0]}</strong>. This indicates that ${topInvestment[0]} is considered the cornerstone of the country's future energy system under these specific scenario conditions.</p>`;
 
     if (otherInvestments.length > 0) {
         analysis += `<h3>Other Key Investments</h3><p>Beyond the primary focus on ${topInvestment[0]}, the portfolio is diversified with other strategic investments:</p><ul>`;
         otherInvestments.forEach(([tech, value]) => {
-            analysis += `<li><strong>${tech}:</strong> An investment of $${value.toLocaleString(undefined, {maximumFractionDigits:0})}M USD is allocated to support ${tech} capacity, likely to ensure grid stability, meet peak demand, or complement the primary generation sources.</li>`;
+            analysis += `<li><strong>${tech}:</strong> An investment of ${value.toLocaleString(undefined, {maximumFractionDigits:0})} MW is allocated to support ${tech} capacity, likely to ensure grid stability, meet peak demand, or complement the primary generation sources.</li>`;
         });
         analysis += `</ul>`;
     }
@@ -213,14 +213,16 @@ export const generateStrategicOutlook = (data: ReportData): string => {
         outlook += `<p>${data.country.name} maintains a balanced energy trade profile, with imports and exports roughly equal. This suggests a strategy focused on self-sufficiency and using trade for grid balancing rather than as a primary source or revenue stream.</p>`;
     }
 
-    outlook += `<h3>Geopolitical Risk Analysis</h3>`;
+    
     if (config.transmission === 'Isolated') {
+        outlook += `<h3>Geopolitical Risk Analysis</h3>`;
         outlook += `<p>In an 'Isolated' system scenario, the concepts of 'Loss by Trusting' and 'Loss by Not Trusting' are less relevant, as the foundational assumption is national self-reliance. The primary focus is on ensuring sufficient domestic capacity to meet all demands without relying on international cooperation.</p>`;
     } else {
+        outlook += `<h3>Geopolitical Risk Analysis</h3>`;
         if (lossToTrust > lossToNotTrust) {
-            outlook += `<p>The analysis indicates a higher "Loss by Trusting" (<strong>$${lossToTrust.toFixed(0)}M</strong>) than "Loss by Not Trusting" (<strong>$${lossToNotTrust.toFixed(0)}M</strong>). This suggests that the primary strategic risk for ${data.country.name} in this scenario is over-reliance on regional integration that may not materialize. A failure in neighborly cooperation would lead to significant economic penalties due to insufficient domestic capacity.</p>`;
+            outlook += `<p>The greater "Loss by Trusting" (<strong>${lossToTrust.toFixed(0)}M</strong>) compared to "Loss by Not Trusting" (<strong>${lossToNotTrust.toFixed(0)}M</strong>) suggests that the country has a higher risk by cooperating and will tend not to trust the integration process.</p>`;
         } else {
-            outlook += `<p>The greater "Loss by Not Trusting" (<strong>$${lossToNotTrust.toFixed(0)}M</strong>) compared to "Loss by Trusting" (<strong>$${lossToTrust.toFixed(0)}M</strong>) suggests that the country's strategy leans towards self-sufficiency. While this provides energy security, it carries a heavy opportunity cost, as the country forgoes the economic benefits of a fully integrated and optimized regional energy market.</p>`;
+            outlook += `<p>The greater "Loss by Not Trusting" (<strong>${lossToNotTrust.toFixed(0)}M</strong>) compared to "Loss by Trusting" (<strong>${lossToTrust.toFixed(0)}M</strong>) suggests that the country will tend to trust and would benefit from leading the integration process.</p>`;
         }
     }
     

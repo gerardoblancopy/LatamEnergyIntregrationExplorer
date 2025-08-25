@@ -259,7 +259,7 @@ export const MapVisualization: React.FC<MapVisualizationProps> = ({ nodes, lines
       const value = heatmapData.get(countryName);
 
       const isKpi = ['lossToTrust', 'lossToNotTrust', 'operationCost', 'imports', 'exports', 'totalEmissions'].includes(selectedHeatmapTechnology);
-      const unit = isKpi ? 'MMUSD' : 'MW';
+      const unit = isKpi ? 'MW' : 'MW';
       const formattedValue = value !== undefined && value > 0 ? `${Math.round(value).toLocaleString()} ${unit}` : `No ${isKpi ? 'data' : 'investment'}`;
 
       const tooltipContent = `<strong>${countryName}</strong><br/>${legendTitle}: ${formattedValue}`;
@@ -350,7 +350,6 @@ export const MapVisualization: React.FC<MapVisualizationProps> = ({ nodes, lines
         scrollWheelZoom={true}
         zoomControl={false}
         preferCanvas
-        whenCreated={(map) => requestAnimationFrame(() => map.invalidateSize(false))}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
@@ -367,7 +366,7 @@ export const MapVisualization: React.FC<MapVisualizationProps> = ({ nodes, lines
         />
         <MapSizeWatcher />
         {filteredGeoJson && (
-          <GeoJSON data={filteredGeoJson} style={outlineStyle} interactive={false} renderer={canvasRenderer} />
+          <GeoJSON data={filteredGeoJson} style={outlineStyle} interactive={false} />
         )}
 
         <LayersControl position="topright">
