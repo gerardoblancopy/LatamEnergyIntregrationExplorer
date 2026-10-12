@@ -6,6 +6,13 @@ const canvasRenderer = L.canvas({ padding: 0.5 });
 import { Country, LineData, InvestmentData, HeatmapTechnology, CountryInvestmentData, KpiData } from '../types';
 import { getCountryByName } from '../services/dataService';
 
+// CARTO basemaps require an API key (since Aug 2026); without it every tile
+// is served with an "API KEY REQUIRED" watermark.
+const CARTO_API_KEY: string = process.env.CARTO_API_KEY || '';
+if (!CARTO_API_KEY) {
+  console.warn('VITE_CARTO_API_KEY is not set: CARTO basemap tiles will show an "API KEY REQUIRED" watermark.');
+}
+
 // Helper component to continuously invalidate map size on container changes and viewport events
 const MapSizeWatcher: React.FC = () => {
   const map = useMap();
@@ -353,8 +360,9 @@ export const MapVisualization: React.FC<MapVisualizationProps> = ({ nodes, lines
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"
-          subdomains={["a","b","c","d"]}
+          url={`https://basemaps.cartocdn.com/rastertiles/dark_nolabels/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(CARTO_API_KEY)}`}
+          // Send the site's origin with each tile so a domain-restricted key is accepted.
+          referrerPolicy="strict-origin-when-cross-origin"
           maxZoom={19}
           updateWhenZooming={true}
           updateWhenIdle={false}
